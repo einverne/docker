@@ -1,6 +1,6 @@
 # For ubuntu, the latest tag points to the LTS version, since that is
 # recommended for general use.
-FROM python:3.6-slim
+FROM python:3.6.7-slim-stretch
 
 # grab gosu for easy step-down from root
 ENV GOSU_VERSION 1.10
